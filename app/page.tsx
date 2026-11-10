@@ -1,11 +1,24 @@
-// app/page.tsx
-// This is our "Controller" — it will import data and pass it to views.
-// For now, just a placeholder so the app runs.
+import Sidebar from "@/components/Sidebar";
+import Hero from "@/components/Hero";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">Portfolio coming in Phase 3</h1>
-    </main>
+    <div className="mx-auto min-h-screen max-w-7xl px-6 md:px-12 lg:px-24">
+      <div className="lg:flex lg:justify-between lg:gap-4">
+        {/* Sidebar (Fixed Left) */}
+        <Sidebar />
+
+        {/* Main Content (Scrolling Right) */}
+        <main className="pt-24 lg:w-2/3 lg:py-24">
+          <Hero />
+          <Experience />
+          <Projects />
+          <Footer />
+        </main>
+      </div>
+    </div>
   );
 }
