@@ -52,6 +52,9 @@ export const projects: Project[] = [
       "Developed a Node.js and Express API connected to MongoDB. Implemented custom middleware for error handling and validation, wrote comprehensive API documentation using Swagger, and secured endpoints using OAuth.",
     techStack: ["Node.js", "Express", "MongoDB", "Swagger", "OAuth"],
     imageUrl: "/images/trackstar-api.png",
+    liveUrl: "https://www.youtube.com/watch?v=kpvAM1OHb2E&t=328s", // <-- Added Video
+    linkText: "Watch API Demo", // <-- Custom text
+    linkType: "video",
     githubUrl: "https://github.com/Hyrummorales23/trackstar-api",
     featured: true,
   },
@@ -68,7 +71,9 @@ export const projects: Project[] = [
       "Utilized C++11 standards, Standard Template Library (STL) containers, and File I/O for persistent storage. Built a fully functional CRUD application with a clean separation of concerns between the data models and the user interface.",
     techStack: ["C++", "OOP", "STL", "File I/O"],
     imageUrl: "/images/cpp-task.png",
-    // No live URL for a console app
-    githubUrl: "https://github.com/Hyrummorales23/CPP_Task_Manager",
+    liveUrl: "https://www.youtube.com/watch?v=yj30yGFRicI", // <-- Added Video
+    linkText: "Watch Demo", // <-- Custom text
+    linkType: "video", // <-- Tells the UI to use the YouTube icon
+    githubUrl: "https://github.com/Hyrummorales23/CPP_TaskManager",
   },
 ];

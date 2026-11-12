@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Project } from "@/lib/types";
-import { ExternalLink } from "lucide-react"; // Keep this
-import { FiGithub } from "react-icons/fi"; // Use this instead of Github
+import { ExternalLink } from "lucide-react";
+import { FiGithub, FiYoutube } from "react-icons/fi"; // Use this instead of Github
 import Image from "next/image";
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -80,7 +80,13 @@ export default function ProjectCard({ project }: { project: Project }) {
               rel="noreferrer"
               className="flex items-center gap-2 text-sm font-medium text-text-primary hover:text-accent transition-colors"
             >
-              <ExternalLink size={18} /> Live Demo
+              {/* Show Video Icon if it's a video, otherwise External Link */}
+              {project.linkType === "video" ? (
+                <FiYoutube size={18} />
+              ) : (
+                <ExternalLink size={18} />
+              )}
+              {project.linkText || "Live Demo"}
             </a>
           )}
         </div>

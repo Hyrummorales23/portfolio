@@ -12,6 +12,8 @@ export interface Project {
   techStack: string[];
   imageUrl: string; // e.g. "/images/project-1.png"
   liveUrl?: string; // Optional live demo link
+  linkText?: string; // <-- Add this (e.g., "Watch Demo", "Live Demo")
+  linkType?: "link" | "video";
   githubUrl?: string; // Optional repo link
   featured?: boolean; // Highlight on top?
 }
