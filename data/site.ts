@@ -2,11 +2,12 @@
 import { SiteConfig } from "@/lib/types";
 
 export const siteConfig: SiteConfig = {
-  name: "[Your Name]",
-  tagline: "Software developer building clean, performant web experiences.",
-  email: "your-email@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
+  name: "Hyrum Morales",
+  tagline:
+    "Full-stack software developer building clean, performant web experiences.",
+  email: "hyrummorales23@gmail.com",
+  github: "https://github.com/hyrummorales23",
+  linkedin: "https://www.linkedin.com/in/hyrum-morales-33ab711a0/",
   resumeUrl: "/resume.pdf", // Place a resume.pdf in /public later
   navigation: [
     { label: "About", href: "#about" },
