@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">HM developer terminal favicon</title>
+  <desc id="desc">Red HM initials and terminal prompt on a black rounded square with a subtle white border.</desc>
+  <rect width="512" height="512" rx="118" fill="#090A0C"/>
+  <rect x="22" y="22" width="468" height="468" rx="98" fill="none" stroke="#FFFFFF" stroke-width="5"/>
+
+  <!-- H -->
+  <path fill="#FF1744" d="M82 179h34v50h56v-50h34v154h-34v-62h-56v62H82z"/>
+
+  <!-- M -->
+  <path fill="#FF1744" d="M224 179h37l35 53 35-53h37v154h-34v-98l-38 56-38-56v98h-34z"/>
+
+  <!-- Terminal slash and prompt -->
+  <path fill="#FF1744" d="M400 179h18l-25 154h-18z"/>
+  <path fill="#FF1744" d="M425 195l52 61-52 61-15-20 37-41-37-41z"/>
+</svg>
